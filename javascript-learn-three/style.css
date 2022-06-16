@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 753px;
+    align-items: center;
+}
+
+.paragraph {
+    color: aliceblue;
+}
+
+.btn {
+    width: 20%;
+    color: black;
+}
