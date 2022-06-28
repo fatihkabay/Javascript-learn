@@ -14,8 +14,6 @@ tas.onclick = secimYap;
 function secimYap() {
     var pc = RasgeleKagit();
 
-    /*dizi sýralamasýný kullanmak daha mantýklýydý fakat yukarýdaki resimlerin sýralamsý deðiþince hata verecektir.*/
-    /*bu karþýlaþtýrmada da rsimlerin isimlerine dikkat etmek gerekiyor.*/
     var secim = this.dataset.id;
     if (pc == 0 && secim == 0) {
         sonuc = "ikinizde ayný seçimi yaptýnýz";
